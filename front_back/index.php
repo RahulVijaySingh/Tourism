@@ -215,14 +215,48 @@
         </div>
       </div>
 </div>
-
-
 </section>
 
 
- 
+
+
+<section class="my-5">
+    <div class="py-5">
+      <h3 class="text-center">Gallery</h3>
+    </div> 
+<!-- w-50 m-auto will take the form in center with width 50 if we not write this then then form will be filled in whole row  -->
+  <div class="w-50 m-auto">  
+   <form action="userinfo.php" method="POST">
+    <div class="form-group">
+      <label for="">Username</label>
+      <input type="text" name="user" autocomplete="off" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="">Email Id</label>
+      <input type="text" name="email" autocomplete="off" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>Mobile Number</label>
+      <input type="text" name="mobile" autocomplete="off" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="">Comments</label>
+      
+
+      <textarea class="form-control" name="comments">
+        </textarea>      
+    </div>
+    <button type="submit " class="btn btn-success">Sumbit</button>
+    </form>
+
+  </div>
+<section>
+  <br>
+  
+
   <footer>
-    <!-- place footer here -->
+    <p class="p-3 bg-dark text-white text-center">rahulvijay_singh@srmap.edu.in</p>
+    
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
